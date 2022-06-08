@@ -12,7 +12,7 @@ const theme = createTheme();
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="sm">
+      <Container component="main" maxWidth="md">
         <CssBaseline />
         <QuotesBrowser />
       </Container>
